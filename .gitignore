@@ -1,2 +1,4 @@
-template/__pycache__/*
-model/__pycache__/*
+# Directory
+template/__pycache__/
+.idea/
+
