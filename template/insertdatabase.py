@@ -7,6 +7,7 @@ def insertsqlserver(data, server, database, user, password, driver, table, schem
     import sys
     from template.capture_of_event import event_error, send_the_event
     from template.html import html_two
+    import logging
 
     print("#" * 5, " ¡Preparing the sql server connection string! ")
     engine = sqlalchemy.create_engine("mssql+pyodbc://" + user + ":" + password + "@" + server
@@ -14,6 +15,7 @@ def insertsqlserver(data, server, database, user, password, driver, table, schem
                                       max_overflow=-1, )
     try:
 
+        logging.info('Start "def insertsqlserver".')
         if msg_error_avoid_inserting is None or msg_error_avoid_inserting == 1:
             print("#" * 5, " ¡Inserting data in {0}! ".format(table))
             data.to_sql(table, engine, schema=scheme, if_exists='append', chunksize=50, index=False)
@@ -28,7 +30,7 @@ def insertsqlserver(data, server, database, user, password, driver, table, schem
         print("--" * 5, ">", " ¡Warning!. Please you review the file info_event_log.csv.", "\n")
         type_class = str(sys.exc_info()[0]).replace("<class ", "").replace(">", "").replace("'", "")
         type_desc = str(sys.exc_info()[1]).replace("<", "").replace(">", "")
-
+        logging.exception(f'Watch out. Exist a exception in this process "def insertsqlserver" {type_class}')
         exc_type, exc_obj, exc_tb = sys.exc_info()
         fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
         e_line = exc_tb.tb_lineno

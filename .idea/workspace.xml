@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aad3df0f-175a-416b-880f-c9258b5dc481" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Beta 1.0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_consolidado.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/excavate.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info_base_log.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info_event_log.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/setting_access_database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setting.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/capture_of_event.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/createfolder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/deletedatabase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/emailsetting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/getdatasources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/html.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/insertdatabase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/readfiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/validationfiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type_errors.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vista.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/createfolder.py" beforeDir="false" afterPath="$PROJECT_DIR$/template/createfolder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/insertdatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/template/insertdatabase.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53196025">
+    <splitter split-orientation="horizontal" split-proportion="0.70897436">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -61,13 +37,34 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index_consolidado.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="243">
-                  <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+                <state relative-caret-position="399">
+                  <caret line="176" selection-start-line="176" selection-end-line="177" selection-end-column="36" />
                   <folding>
                     <element signature="e#85#114#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/template/insertdatabase.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/template/createfolder.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="511">
+                  <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+                  <folding>
+                    <element signature="e#61#70#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -89,7 +86,9 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/logs/log.log">
               <provider selected="true" editor-type-id="LogFileEditorProvider">
-                <state relative-caret-position="-111" />
+                <state relative-caret-position="378">
+                  <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+                </state>
               </provider>
             </entry>
           </file>
@@ -122,7 +121,6 @@
       <list>
         <option value="$PROJECT_DIR$/dml/e_conect.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/template/createfolder.py" />
         <option value="$PROJECT_DIR$/vista.html" />
         <option value="$PROJECT_DIR$/model/setting_access_database.py" />
         <option value="$PROJECT_DIR$/logs/excavate.csv" />
@@ -130,13 +128,15 @@
         <option value="$PROJECT_DIR$/template/capture_of_event.py" />
         <option value="$PROJECT_DIR$/template/readfiles.py" />
         <option value="$PROJECT_DIR$/index_consolidado.py" />
+        <option value="$PROJECT_DIR$/template/createfolder.py" />
+        <option value="$PROJECT_DIR$/template/insertdatabase.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="525" />
-    <option name="y" value="123" />
-    <option name="width" value="1068" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="26" />
+    <option name="y" value="41" />
+    <option name="width" value="1162" />
     <option name="height" value="1070" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -177,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dml" />
+    <property name="last_opened_file_path" value="Z:/Latam/Lan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -264,18 +264,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560889186657</updated>
-      <workItem from="1560889187907" duration="26896000" />
+      <workItem from="1560889187907" duration="30737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26896000" />
+    <option name="totallyTimeSpent" value="30737000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="26" y="41" width="1162" height="1070" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1393643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20689656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -285,7 +286,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31376734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,16 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/createfolder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#61#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vista.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -368,13 +359,6 @@
           <folding>
             <element signature="e#33#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/insertdatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -409,11 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-111" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/event_turn_off.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23" />
@@ -428,13 +407,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="378">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/createfolder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#61#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index_consolidado.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="399">
+          <caret line="176" selection-start-line="176" selection-end-line="177" selection-end-column="36" />
           <folding>
             <element signature="e#85#114#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/insertdatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
         </state>
       </provider>
     </entry>

@@ -9,6 +9,7 @@ from os.path import abspath
 from os import scandir
 from os import walk
 
+
 def index_absolute_sub_dir_file(ruta='.'):
     """
     List a Absolute path of directories, sub-directory and files.
