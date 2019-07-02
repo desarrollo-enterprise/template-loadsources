@@ -1,5 +1,12 @@
+"""
+#####################################
+# Author: Ernesto Quito Gonzales    #
+# Date: 02/07/2019                  #
+#####################################
+"""
 import selenium
 from setting import setting_web
+
 
 class WebScrap:
     urls = ''
@@ -16,7 +23,7 @@ class WebScrap:
         print(f"""USUARIO:\t\t{user}
 CONTRASEÑA:\t\t{password}""")
 
-        # Here you could write the code selenium to enter to the web.
+        # Here you could write the code selenium to enter to the web and has the searching in the web.
 
 
 a = WebScrap(setting_web['url'], setting_web['credential'])

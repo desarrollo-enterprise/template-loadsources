@@ -84,8 +84,7 @@ def htmltrafico(dafra, file=None, cuenta='', path_to_move=''):
 
         df5 = pd.DataFrame(data=dic)
         df5.fillna(0, inplace=True)
-        #df5.to_csv("testing.csv", index=False, sep=";")
-        #print(df5[df5["object"]=="TDE_CCAV_ALLUS"])
+
         df5['Fecha'] = pd.to_datetime(df5['Fecha'], dayfirst=True)
         df5['NA'] = df5['NA'].astype(float)
         df5['NS_05S'] = df5['NS_05S'].astype(float)

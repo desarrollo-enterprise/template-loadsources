@@ -1,11 +1,12 @@
 """
-#####################################
-# Author: Ernesto Quito Gonzales    #
-# Date: 02/07/2019                  #
-#####################################
+#########################################
+# Create by: Ernesto Quito Gonzales     #
+# Date: 02/07/2019                      #
+#########################################
 """
 from setting import setting_web
 import json
+
 
 class BecomeRpa:
     def __init__(self, parm_1, parm_2):
@@ -15,3 +16,4 @@ class BecomeRpa:
 
 
 a = BecomeRpa('Variable_1', 'Variable_2')
+
